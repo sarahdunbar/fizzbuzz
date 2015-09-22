@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Sarah Dunbar
+Credit: http://stackoverflow.com/questions/23315261/returning-multiples-of-a-number-in-python
 
 Assignment:
 
@@ -44,3 +44,7 @@ Fizz
 Fizz
 Buzz
 """
+
+numbers = input("How many numbers shall we print? ")
+multiplesfizz = input("For multiples of 
+range(10, 350, 10) #Remember this
