@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Sarah Dunbar
-Credit: http://stackoverflow.com/questions/23315261/returning-multiples-of-a-number-in-python
+Credit: Anoushka Alavilli
 Assignment:
 Write a program that prints the numbers from 1 to 100. But for 
 multiples of three print “Fizz” instead of the number and for 
