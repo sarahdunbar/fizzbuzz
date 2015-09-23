@@ -42,5 +42,24 @@ Buzz
 """
 
 numbers = input("How many numbers shall we print? ")
-multiplesfizz = input("For multiples of 
-range(10, 350, 10) #Remember this
+multfizz = input("For multiples of what number shall we print 'Fizz'? ")
+multbuzz = input("For multiples of what number shall we print 'Buzz'? ")
+nums = int(numbers)
+fizz = int(multfizz)
+buzz = int(multbuzz)
+for x in range(1, (nums + 1)):
+    fizzy = x%fizz
+    buzzy = x%buzz
+    if fizzy > 0 and buzzy > 0:
+        print (x)
+    elif fizzy > 0 and buzzy == 0:
+        print ("Buzz")
+    elif fizzy == 0 and buzzy > 0:
+        print ("Fizz")
+    elif fizzy == 0 and buzzy == 0:
+        print ("FizzBuzz")
+
+
+
+
+
